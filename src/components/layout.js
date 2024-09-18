@@ -5,7 +5,7 @@ export default function Layout() {
   return (
     <div>
        <Navbar expand="lg" style={{backgroundColor:'#2c2c38'}}>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" className='bg-white'/>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className='text-white' style={{backgroundColor:'#2c2c38'}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto pe-5 me-5">
                     <Nav.Link href="#intro" className='text-white px-4'>Home</Nav.Link>

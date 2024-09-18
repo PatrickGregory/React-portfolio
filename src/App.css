@@ -1,7 +1,15 @@
 .bg-img{
-    background-image: url(../public/images/city.jpg);
+  position: relative;
+  z-index: 1;
+}
+.bg-img:before{
+    content: "";
+    background: url(../public/images/city.jpg) center center;
     background-size: cover;
     z-index: -1;
     opacity: .4;
     position:absolute;
+}
+#opaque{
+  opacity: 100%;
 }
